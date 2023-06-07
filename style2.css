@@ -1,0 +1,218 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar
+{
+    position: sticky;
+    
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;   
+}
+.navbar-nav li a
+{
+    float: right;  
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #007bff !important;
+}
+.navbar
+{
+    background: #fff;
+}
+.nav-link
+{
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+
+.p-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar{
+    border-radius: 16px;
+}
+.progress{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/promo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10PX;
+}
+#services h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20PX AUTO 5px;
+
+}
+
+
+.services
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+#services p
+{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.services .col-md-3:hover
+{
+    background: #e49204;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#team
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+h1
+{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: #ffaa00;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20PX AUTO 5px;
+}
+
+.profile-pic
+{
+    margin-top: 25px;
+}
+.profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img
+{
+    filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+    filter: grayscale(0);
+}
+.profile-pic h2
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #ffaa00 !important;
+}
+.profile-pic h3
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
+
+
+#contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+.contact-form
+{
+    padding: 15px;
+}
+
+.form-group
+{
+    padding: 5px;
+}
+
+.form-control
+{
+    border-radius: 5px !important;
+    border: none !important;
+}
+::placeholder
+{
+    color: #ffaa00 !important;
+}
+.follow
+{
+    background: #FFF;
+    padding: 10px;
+    margin: 15px;
+    color: #ffaa00;
+    
+}
+
+#head
+{
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 190px;
+    padding-bottom: 190px;
+    margin-bottom: 20px;
+}
